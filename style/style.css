@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;800&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --cor-primaria: #f0f8ff; 
+    --cor-secundaria: #080808;
+    --cor-terciaria: #272727;
+    --cor-quartenaria: #800080;
+    --cor-quintenaria: #ffff00;
+    --cor-sextenario: #ff0000;
+    --cor-septenario: #80ffff; 
+
+    --font-primaria: 'Public Sans', sans-serif;
+}
+
+body {
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 2% 0% 0% 15%;
+    
+}
+
+.header__menu {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.header__menu__links {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    font-size: 1,25rem;
+
+}
+
+.header__menu__links:hover {
+    background-color: var(--cor-terciaria);
+    padding: 1px;
+    border-radius: 4px;
+}
+
+strong {
+    color: var(--cor-quartenaria);
+}
+
+.strong_2 {
+    color: var(--cor-quintenaria);
+}
+
+.strong_3 {
+    color: var(--cor-sextenario);
+}
+
+.secao_1{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-primaria)
+    
+}
+
+.style_1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8% 15%;
+    gap: 50px;
+}
+
+.links_1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+
+    
+}
+    
+.text_links {
+    color: var(--cor-quartenaria);
+}
+
+.links_bom {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    border: 1px solid var(--cor-septenario);
+    color: var(--cor-primaria);
+    width: 50%;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.links_bom:hover {
+      background-color: var(--cor-terciaria);
+      padding: 2%;
+}
+    
+    
+
+
+.imag_1 {
+
+    width: 50%;
+}
+
+.logo_youtube {
+    width: 1,25rem;
+    height: 1rem;
+    
+}
+
+.miles {
+    width: 1,87rem;
+    height: 1rem;
+}
+
+.footer {
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-quartenaria);
+    border-radius: 0,31rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.strong_4 {
+    color: var(--cor-primaria);
+}
+
+
+
+.text_2 {
+    font-family: var(--font-primaria)
+}
+
+@media (max-width: 508px) {
+
+    .header {
+        padding: 10%;
+    }
+
+    .header__menu {
+        justify-content: center;
+    }
+
+    .style_1 {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+}
+    
